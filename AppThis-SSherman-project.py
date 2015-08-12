@@ -563,7 +563,7 @@ from sklearn import metrics
 metrics.auc(falsePositiveRate, truePositiveRate)
 
 
-# Clearly, the time stamp for the install was over-fitting the model. The AUC went form .87 to .61, which really is not good at all. However, it provides for a more appropriate fit. Again, it cannot be assumed that an install will not occur just because there is no time stamp yet presented.
+# Clearly, the time stamp for the install was over-fitting the model. The AUC went form .87 to .61, which is not good at all. However, it is more appropriate. Again, it cannot be assumed that an install will not occur just because there is no time stamp yet presented.
 
 # For the next model I will try to add in additional features to see if this will help provide a better fit for the model.
 
@@ -834,7 +834,7 @@ metrics.auc(falsePositiveRate, truePositiveRate)
 
 # ##__Conclusions__
 
-# The results are intriguing. I would have liked to have been able to use additional features and more data. I believe that if I had a better setup and more processing power, things would have been more efficient. If I had more time, I would have figured out a better method for attaching the additional features to the dataset and would have tried other types of models. I appreciate the opportunity to work with this data and am inspired by your companies work. 
+# The results are intriguing. I would have liked to have been able to use additional features and more data. I believe that if I had a better setup and more processing power, things would have been more efficient. If I had more time, I would have figured out a better method for attaching the additional features to the dataset and would have tried other types of models. I appreciate the opportunity to work with this data and am inspired by your company's work. 
 
 # ###__Key Take Aways & Lessons learned__
 
